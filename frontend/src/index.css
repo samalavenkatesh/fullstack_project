@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@100;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active-link{
+    border-bottom: 4px solid greenyellow;
+}
+
+.menu-button {
+    position: fixed;
+    top: 16px; /* Adjust to desired distance */
+    right: 16px; /* Adjust to desired distance */
+    z-index: 50; /* Ensures it stays above other elements */
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
